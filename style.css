@@ -47,6 +47,8 @@ li a{
 
 li a:hover{
     color: black;
+    text-decoration: underline;
+    text-decoration-color: white;
 
 }
 
@@ -292,14 +294,57 @@ li a:hover{
 
 
 .container-3{
- margin-left: 100px;
+
  margin-bottom: 70px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
 }
 
 .part-1{
-    width: 30%;
-    
-   border-style: inset;
-   border-radius: 5px;
+    width: 24%;
+    border: 1px solid rgb(219, 219, 219);
+   border-radius: 8px;
+   box-shadow: inset;
+   margin-right: 20px;
    
+}
+
+.i1 img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.p1{
+    padding: 15px 15px;
+}
+
+.button-3{
+    color: #ef233c;
+}
+
+
+.p1 h4{
+    padding-bottom: 5px;
+}
+
+
+footer{
+    background-color: #0b0d17;
+    text-align: center;
+    padding: 30px 30px;
+    
+}
+footer h2{
+    font-size: 30px;
+    font-style: italic;
+    font-family: cursive;
+    color: #ef233c;
+    padding-bottom: 10px;
+}
+
+footer p{
+    color: white;
 }
